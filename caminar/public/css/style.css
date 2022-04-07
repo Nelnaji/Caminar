@@ -36,6 +36,22 @@ body{
     width: 100%;
     display: block;
 }
+.hero-title{
+    position: relative;
+    padding: 0.5rem;
+}
+.hero-text{
+    padding-top: 1rem;
+}
+.hero-title::after{
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 0.1rem;
+    width: 30%;
+    left: 35%;
+    background-color: #dedede;
+}
 .wrap-sub-hero{
     display: flex;
     flex-direction: column;
@@ -43,6 +59,9 @@ body{
     align-items: center;
     background-color: white;
     height: 170px;
+}
+.hero-text{
+    color: rgb(158, 158, 158);
 }
 .text-intro{
     display: flex;
@@ -68,6 +87,24 @@ body{
     width: 80%;
     margin: auto;
     padding: 2.5rem;
+}
+.house-intro-title{
+    position: relative;
+    padding: 0.5rem;
+}
+.house-intro-title::after {
+    position: absolute;
+    bottom: 0;
+    content: "";
+    height: 0.1rem;
+    width: 30%;
+    left: 35%;
+    background-color: #757575;
+}
+.house-intro-text{
+    color: rgb(158, 158, 158);
+    padding-top: 0.5rem;
+    font-size: 12px;
 }
 .wrap-text-intro p:nth-child(2){
     margin-top: 4%;
