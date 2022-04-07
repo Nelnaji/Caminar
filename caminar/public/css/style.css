@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body{
+    background: url("../images/bg.jpg") repeat-y center center;   background-size: contain;
+    font-family: 'Poppins', sans-serif;
+}
+.full-page{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-main-title{
+    color: white;
+    margin: 2%;
+}
+.main-title{
+    font-size: 50px;
+}
+.main-title-text{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.container-principal{
+    width: 60%;
+    margin: auto;
+}
+.hero{
+    width: 100%;
+}
+.wrap-sub-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 170px;
+}
+.text-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    padding: 7%;
+}
+.wrap-house{
+    height: 600px;
+    background-color: rgb(46, 44, 44);
+    padding-top: 3rem;
+}
+.wrap-house-intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 110px;
+    width: 80%;
+    margin: auto;
+    padding: 2.5rem;
+}
+.wrap-text-intro p:nth-child(2){
+    margin-top: 4%;
+}
+.grid-4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.grid-4-img{
+    width: 40%;
+}
+.grid-6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 1fr); grid-column-gap: 0px; grid-row-gap: 0px;
+}
+.grid-6-img {
+    width: 100%;
+}
+.grid-6-elem{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-6-elem-sub{
+    padding: 15%;
+}
+.grid-6-elem-sub-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.grid-6-elem:nth-child(3){
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+.grid-6-elem:nth-child(3) .grid-6-elem-sub-title {
+    display: flex;
+    justify-content: end;
+}
+.grid-6-elem:nth-child(3) .grid-6-elem-sub-text{
+    text-align: end;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    height: 100px; 
+}
+footer p{
+    margin-bottom: 5%;
+    color: white;
+}
+.footer-link{
+    color: white;
+}
+
