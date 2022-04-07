@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;700&display=swap');
 *{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body{
-    background: url("../images/bg.jpg") repeat-y center center;   background-size: contain;
     font-family: 'Poppins', sans-serif;
+    background: url("../images/bg.jpg") repeat-y center center;   background-size: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
 }
 .full-page{
     display: flex;
@@ -33,6 +34,7 @@ body{
 }
 .hero{
     width: 100%;
+    display: block;
 }
 .wrap-sub-hero{
     display: flex;
@@ -50,7 +52,8 @@ body{
     padding: 7%;
 }
 .wrap-house{
-    height: 600px;
+    height: 100%;
+    padding-bottom: 3rem;
     background-color: rgb(46, 44, 44);
     padding-top: 3rem;
 }
